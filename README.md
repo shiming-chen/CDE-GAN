@@ -1,6 +1,10 @@
-## CDE-GAN
+## CDE-GAN [[Project]](https://shiming-chen.github.io/CDE-GAN-website/CDE-GAN.html)
 Codes for paper "CDE-GAN: Cooperative Dual Evolution Based Generative Adversarial Network"
 
-- ![#f03c15](Codes coming soon).
+```diff
+- Codes coming soon.
+
+```
+
 
 
