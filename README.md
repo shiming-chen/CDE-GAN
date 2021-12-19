@@ -22,11 +22,13 @@ Run `python test.py` for generating test data.
 If this work is helpful for you, please cite our paper.
 
 ```
-@article{Chen2021SCDE,  
-  title={CDE-GAN: Cooperative Dual Evolution Based Generative Adversarial Network},    
-  author={Chen, Shiming and Wang, Wenjie and Xia, Beihao and Peng, Qinmu and You, Xinge and Cao, Zehong and Ding,  Weiping},    
-  journal={IEEE Transactions on Evolutionary Computation}, 
-  year={2021}    
+@article{Chen2021CDEGANCD,
+  title={CDE-GAN: Cooperative Dual Evolution-Based Generative Adversarial Network},
+  author={Shiming Chen and Wenjie Wang and Beihao Xia and Xinge You and Qinmu Peng and Zehong Cao and Weiping Ding},
+  journal={IEEE Transactions on Evolutionary Computation},
+  year={2021},
+  volume={25},
+  pages={986-1000}
 }
 ```
 
