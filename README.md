@@ -33,7 +33,7 @@ If this work is helpful for you, please cite our paper.
 ```
 
 ## Acknowledgments
-- Baseline codes from  [code](https://github.com/WANG-Chaoyue/EvolutionaryGAN-pytorch).
+- Baseline codes from  [WANG-Chaoyue/EvolutionaryGAN-pytorch](https://github.com/WANG-Chaoyue/EvolutionaryGAN-pytorch).
 - The authors would like to thank  Dr. [Chaoyue Wang](https://www.sydney.edu.au/engineering/about/our-people/academic-staff/chaoyue-wang.html) for his assistance with coding suggestions.
 
 
