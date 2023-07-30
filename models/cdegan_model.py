@@ -352,5 +352,3 @@ class CDEGANModel(BaseModel):
                 allgrad = grad if i == 0 else torch.cat([allgrad,grad])
         Fd = -torch.log(torch.norm(allgrad)).data.cpu().numpy()
         return Fd
-
-    
