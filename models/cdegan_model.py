@@ -304,11 +304,9 @@ class CDEGANModel(BaseModel):
         weights_normed = [weights[i]/sum(weights) for i in range(len(weights))]
         loss = 0
         if self.opt.mean_type == 'arithmetic':
-            for i in range(len(losses)):
-                loss += weights_normed[i]*losses[i]
+            loss = np.sum([weights_normed[l]*losses[l] for l in losses])
         elif self.opt.mean_type == 'sum':
-            for i in range(len(losses)):
-                loss += losses[i]
+            loss = np.sum(losses)
         else:
             raise NotImplementedError('other mean_type in mix_prediction not implemented')
         return loss
@@ -354,5 +352,3 @@ class CDEGANModel(BaseModel):
                 allgrad = grad if i == 0 else torch.cat([allgrad,grad])
         Fd = -torch.log(torch.norm(allgrad)).data.cpu().numpy()
         return Fd
-
-    
